@@ -1,4 +1,12 @@
-# unit21api
+# Python SDK for Unit21 API
+
+[Unit21](https://docs.unit21.ai/docs) is an anti-money laundering (AML) and Fraud system that runs securely in your browser.
+
+Unit21 provides:
+*Identity Verification - find suspicious parties (KYB/KYC) and monitor them
+*Transaction Monitoring - create rules to find fraudulent transactions
+*Case Management - investigate potential offenders and suspicious transactions
+*Report Filing and Actionable Webhooks - report offenders to the authorities or ban them
 
 <!-- Start SDK Installation -->
 ## SDK Installation
@@ -7,6 +15,29 @@
 pip install unit21api
 ```
 <!-- End SDK Installation -->
+
+## Authentication 
+
+The Unit21 API uses API keys to authenticate requests. These API keys can be generated within the dashboard and must be supplied with each request.
+
+Your API keys can be used to perform a variety of actions against the API; whilst GET requests do not affect data in your account, the PATCH and POST requests can create, alter and reassign searches - so please ensure you follow best practice for managing API keys.
+
+Please remember to:
+
+Keep your keys secure
+Rotate your API keys on a frequent basis
+Never store your API keys in a publicly-accessible location
+When making requests to the Unit21 API the key must be provided in the header:
+
+```bash
+curl -X POST \
+    -H 'Content-Type: application/json' \
+    -H 'u21-key: YOUR_API_KEY' \
+    -d '{
+            "request_body": "..."
+        }' \
+    https://<API_ENDPOINT>/<path>
+```
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
