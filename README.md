@@ -1,12 +1,11 @@
 # Python SDK for Unit21 API
 
-[Unit21](https://docs.unit21.ai/docs) is an anti-money laundering (AML) and Fraud system that runs securely in your browser.
+[Unit21](https://docs.unit21.ai/docs) is an anti-money laundering (AML) and Fraud system that runs securely in your browser. Unit21 provides:
 
-Unit21 provides:
-*Identity Verification - find suspicious parties (KYB/KYC) and monitor them
-*Transaction Monitoring - create rules to find fraudulent transactions
-*Case Management - investigate potential offenders and suspicious transactions
-*Report Filing and Actionable Webhooks - report offenders to the authorities or ban them
+* Identity Verification - find suspicious parties (KYB/KYC) and monitor them
+* Transaction Monitoring - create rules to find fraudulent transactions
+* Case Management - investigate potential offenders and suspicious transactions
+* Report Filing and Actionable Webhooks - report offenders to the authorities or ban them
 
 <!-- Start SDK Installation -->
 ## SDK Installation
