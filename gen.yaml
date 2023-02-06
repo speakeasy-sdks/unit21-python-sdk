@@ -1,0 +1,5 @@
+python:
+    version: 2.0.0
+    packagename: unit21api
+    author: unit21
+sdkclassname: unit21
