@@ -1,5 +1,9 @@
+management:
+    openapi-checksum: 284c64fd52d0f14f42941e95e8c27206
+    openapi-version: "1.0"
+    speakeasy-version: 1.0.0
 python:
-    version: 2.0.0
+    version: 2.1.0
     packagename: unit21api
     author: unit21
 sdkclassname: unit21
